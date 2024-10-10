@@ -1,6 +1,5 @@
 :root {
     --veryLightGray: hsl(0, 0%, 98%);
-
 }
 
 * {
@@ -235,6 +234,18 @@ body {
     background-color: var(--header-color);
     color: var(--textColor);
     box-shadow: 10px 10px 10px -5px var(--shadowColor);
+}
+
+/* Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: black;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: underline;
 }
 
 @media screen and (max-width:700px) {
